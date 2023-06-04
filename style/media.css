@@ -1,0 +1,480 @@
+@media (max-width: 1200px) {
+   .card-btn {
+    width: 52%;
+   }
+}
+
+
+@media (max-width: 992px) {
+
+
+  .hero-row {
+    flex-wrap: nowrap;
+  }
+
+  .modeling-course-heading {
+    margin-bottom: 14px;
+
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+  }
+
+  .modeling-img {
+    padding-top: 148px;
+  }
+
+
+
+
+
+  .benefits-block-content {
+    margin-bottom: 53px;
+    padding-left: 0;
+  }
+
+  .benefits-descr {
+    padding-left: 32px;
+  }
+
+  .benefits-heading {
+    margin-bottom: 16px;
+  }
+
+  .benefits-img {
+    height: 100%;
+    padding: 32px 0 0 13px
+  }
+
+  .benefits-list {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .benefits-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .benefits-icon {
+    margin-right: 0;
+    margin-bottom: 9px;
+  }
+
+
+
+
+
+
+  .curators {
+    padding-top: 71px;
+    padding-bottom: 25px;
+  }
+
+  .curators-heading {
+    margin-bottom: 25px;
+  }
+
+  .curators-card {
+    margin-bottom: 23px;
+
+  }
+
+
+  .curator {
+    border-radius: 34px 34px 0 0;
+  }
+
+
+
+
+
+
+  .courses-heading {
+    margin-bottom: 25px;
+  }
+
+
+
+  .card-img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .card-btn {
+    width: 73%;
+    padding: 21px 56px;
+  }
+
+  .cources-hours {
+    padding-right: 6px;
+  }
+}
+
+
+
+/* 510 */
+/* 510 */
+/* 510 */
+/* 510 */
+/* 510 */
+/* 510 */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px 0;
+  }
+
+  .header-logo {
+    margin: 0 auto;
+    margin-bottom: 28px;
+  }
+
+
+  .modeling-course {
+    padding: 79px 0;
+  }
+
+  .modeling-img {
+    /* visibility: hidden; */
+    display: none;
+  }
+
+
+  .benefits {
+    padding-bottom: 21px;
+  }
+
+  .benefits-block-content {
+    margin-bottom: 23px;
+  }
+
+  .benefits-descr {
+    padding-left: 28px;
+  }
+
+  .benefits-heading {
+    margin-bottom: 19px;
+  }
+
+  .benefits-img {
+    height: 41%;
+
+    padding: 0 0 0 11px;
+  }
+
+  .benefits-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: flex-start;
+  }
+
+  .benefits-icon {
+    margin-bottom: 6px;
+    margin-right: 0;
+  }
+
+  .benefits-item-descr {
+    max-width: 88%;
+  }
+
+
+  .curators {
+    padding-top: 74px;
+    padding-bottom: 26px;
+  }
+
+  .curator {
+    height: 180px;
+    border-radius: 23px 23px 0 0;
+    margin-bottom: 27px;
+  }
+
+  .curators-name {
+    margin-bottom: 6px;
+  }
+
+  .curators-descr {
+    max-width: 92%;
+  }
+
+
+  .courses {
+    padding-top: 73px;
+  }
+
+  .card-img {
+    border-radius: 20px 20px 0 0;
+  }
+
+  li.cources-card {
+    margin-bottom: 29px;
+  }
+
+  .card-descr {
+    padding-top: 25px;
+  }
+
+  .card-heading {
+    margin-bottom: 11px;
+    line-height: 130%;
+  }
+
+  .card-img {
+    height: 180px;
+  }
+
+  .card-btn {
+    padding: 21px 49px;
+  }
+}
+
+@media (max-width: 758px) {
+  .card-btn {
+   width: 100%;
+  }
+}
+
+
+/* 320 */
+/* 320 */
+/* 320 */
+/* 320 */
+/* 320 */
+/* 320 */
+/* 320 */
+
+@media (max-width:576px) {
+
+  .header {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .header-content {
+    flex-direction: row;
+    padding: 27px 0;
+  }
+
+  .header-nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #3F2AFF;
+    padding: 30px;
+    opacity: 0;
+    height: 100vh;
+    z-index: 1000;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: transform .3s ease-in-out, opacity .3s ease-in-out, visibility .3s ease-in-out;
+  }
+
+  .header-nav.active {
+    visibility: visible;
+    transform: translateX(0);
+    opacity: 1;
+    z-index: 1000;
+    max-height: 431px;
+  }
+  .header-list {
+    display: block;
+  }
+
+  .header-list {
+    padding-top: 30px;
+  }
+
+  .header-list .header-item-link {
+    font-size: 18px;
+  }
+
+  .header-logo {
+    margin: 0;
+  }
+
+  .header-list {
+    flex-direction: column;
+  }
+
+  .header-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .header__btn-open {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .header-logo svg {
+    max-width: 76%;
+  }
+
+  .header__btn-open,
+  .nav__close {
+    display: block;
+  }
+
+  .nav__close {
+    margin-top: 0;
+  }
+
+  .nav__close:active:not(:focus-visible) svg {
+    transform: rotate(45deg);
+  }
+
+  /* .nav__close:hover svg path {
+    fill: #ff9900;
+  } */
+
+  .header__btn-open:focus-visible {
+    outline: 2px solid #ff9900;
+    outline-offset: 10px;
+  }
+
+  /* .header__btn-open:hover:not(:focus-visible) svg rect {
+    fill: #ff9900;
+  } */
+
+  /* .header__btn-open:active:not(:focus-visible) svg rect {
+    fill: #ff9900;
+    transition: transform .3s ease-in-out;
+  } */
+
+  /* .header__btn-open:active:not(:focus-visible) svg rect#burger-line-2 {
+    width: 20px;
+  }
+  .header__btn-open:active:not(:focus-visible) svg rect#burger-line-3 {
+    width: 10px;
+  } */
+
+
+
+
+
+  .modeling-course {
+    padding: 49px 0;
+  }
+
+  .modeling-course-heading {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .modeling-course-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .modeling-course-descr {
+    margin-bottom: 45px;
+  }
+
+  .first-btn {
+    padding: 20px 47px;
+  }
+
+
+  .benefits {
+    padding-top: 49px;
+    padding-bottom: 29px;
+  }
+
+  .benefits-heading {
+    margin-bottom: 3px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .benefits-img {
+    display: none;
+  }
+
+  .benefits-block-content {
+    margin-bottom: 25px;
+  }
+  .benefits-descr {
+    padding-left: 17px;
+}
+  .benefits-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .benefits-column {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .benefits-column:not(:last-child) {
+    margin-bottom: 26px;
+  }
+
+  .benefits-icon {
+    margin-right: 28px;
+    margin-bottom: 0;
+  }
+
+  .benefits-item-descr {
+    max-width: max-content;
+  }
+
+
+
+
+
+  h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .curators {
+    padding-top: 46px;
+  }
+
+  .curators-heading {
+    margin-bottom: 28px;
+  }
+
+  .curators-name {
+    margin-bottom: 7px;
+  }
+
+
+
+
+  .courses {
+    padding-top: 45px;
+    padding-bottom: 19px;
+  }
+
+  .cources-card {
+    min-height: 651px;
+  }
+
+  .courses-heading {
+    margin-bottom: 27px;
+  }
+
+  .card-btn {
+    width: 85%;
+  }
+
+
+
+}
